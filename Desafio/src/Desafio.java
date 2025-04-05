@@ -7,27 +7,19 @@ public class Desafio {
         String tipoConta = "Corrente";
         double saldoConta = 2500;
         System.out.println("*********************************************************************");
-        System.out.println("Dados do cliente:");
+        System.out.println("\nDados do cliente:");
         System.out.println(" ");
         System.out.println("Nome: " + nome);
         System.out.println("Tipor de conta: " + tipoConta);
         System.out.println("Saldo Atual: R$ " + saldoConta);
-        System.out.println("*********************************************************************");
-
-
+        System.out.println("\n*********************************************************************");
         double valorRecebido;
         double valorTransferir;
         int decisao = 0;
         while (decisao != 5) {
-            System.out.println("Operações");
-            System.out.println("""
-                    
-                    """);
-            System.out.println("Digite a opção desejada:");
-            System.out.println("""
-                    
-                    """);
-            System.out.println("1 - Consultar saldo");
+            System.out.println("\nOperações");
+            System.out.println("\nDigite a opção desejada:");
+            System.out.println("\n1 - Consultar saldo");
             System.out.println("2 - Receber valor");
             System.out.println("3 - Transferir valor");
             System.out.println("4 - Sair");
