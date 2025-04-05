@@ -29,29 +29,23 @@ public class Desafio {
                     System.out.println("Saldo: " + saldoConta);
                     break;
                 case 2 :
-                    System.out.println("Digite o valor recebido:");
+                    System.out.println("\nDigite o valor recebido:");
                     valorRecebido = formulario.nextDouble();
                     saldoConta = saldoConta + valorRecebido;
                     System.out.println("Saldo atualizado: R$ " + saldoConta);
-                    System.out.println("""
-                            
-                            """);
                     break;
                 case 3:
-                    System.out.println("Digite o valor que seja transferir:");
+                    System.out.println("\nDigite o valor que seja transferir:");
                     valorTransferir = formulario.nextDouble();
                     if (valorTransferir <= saldoConta) {
                         saldoConta = saldoConta - valorTransferir;
                         System.out.println("Saldo atualizado: R$ " + saldoConta);
-                        System.out.println("""
-                                
-                                """);
                     } else {
-                        System.out.println("Operação cancelada, seu saldo é insufuciente !");
+                        System.out.println("\nOperação cancelada, seu saldo é insufuciente !");
                     }
                     break;
                 case 4:
-                    System.out.println("Saindo do sistema");
+                    System.out.println("\nSaindo do sistema");
                     decisao = 5;
                     break;
             }
